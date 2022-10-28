@@ -1,0 +1,67 @@
+.parent, .parent2 {
+    margin: 20px;
+}
+ button{
+ background-color: orangered;
+ color: white;
+}
+.New{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+.childa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+.childa,img{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.write{
+    /* border: solid 2px yellow; */
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+}
+@media (min-width:1000px) {
+    .parent{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+    .child1{
+        /* border: 2px solid purple; */
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+    .child{
+        width: 70%;
+        /* border: solid green 2px; */
+    }
+    .New{
+        padding: 50px;
+    }
+    .beau img{
+        height: 300px;
+    }
+
+    .New,.child{
+        /* border: solid red 5px; */
+        height: 600px;
+
+    }
+    .parent2{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+        align-items: center;
+    }
+}
